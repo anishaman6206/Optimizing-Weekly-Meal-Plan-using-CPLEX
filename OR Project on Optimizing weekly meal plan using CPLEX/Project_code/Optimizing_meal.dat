@@ -1,0 +1,20 @@
+/*********************************************
+ * OPL 22.1.1.0 Data
+ * Author: anish
+ * Creation Date: 02-Apr-2024 at 1:08:25 AM
+ *********************************************/
+
+SheetConnection sheet("dataset.xlsx");
+
+
+//Meal_Variety from SheetRead(sheet,"Sheet1!A2:A13");
+Meal_Type from SheetRead(sheet,"Sheet1!B2:B13");
+Meal_Nutrient from SheetRead(sheet,"Sheet1!C1:H1");
+Meal_Nutrient_Value from SheetRead(sheet,"Sheet1!C2:H13");
+Cost_per_serving from SheetRead(sheet,"Sheet1!I2:I13");
+Nutrients_score from SheetRead(sheet,"Sheet1!J2:J13");
+//
+Min_Meal_Nutrient_Requirement from SheetRead(sheet,"Sheet1!C17:H17");
+Max_Meal_Nutrient_Requirement from SheetRead(sheet,"Sheet1!C21:H21");
+
+
